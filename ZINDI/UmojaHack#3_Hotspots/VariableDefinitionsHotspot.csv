@@ -1,0 +1,35 @@
+Variable,Description
+ID,The IDs take the form of [area ID]_yyyy-mm-dd. There are 3821 area squares each with a unique ID ranging from 0 to 3820.
+area,Area ID
+date,The date that the data is aggregated over
+lat,Latitude of the center of the area
+lon,Longitude of the center of the area
+burn_area,Percentage of the area burnt
+climate_aet,"Actual evapotranspiration, derived using a one-dimensional soil water balance model"
+climate_def,"Climate water deficit, derived using a one-dimensional soil water balance model"
+climate_pdsi,Palmer Drought Severity Index
+climate_pet,Reference evapotranspiration (ASCE Penman-Montieth)
+climate_pr,Precipitation accumulation
+climate_ro,"Runoff, derived using a one-dimensional soil water balance model"
+climate_soil,"Soil moisture, derived using a one-dimensional soil water balance model"
+climate_srad,Downward surface shortwave radiation
+climate_swe,"Snow water equivalent, derived using a one-dimensional soil water balance model"
+climate_tmmn,Minimum temperature
+climate_tmmx,Maximum temperature
+climate_vap,Vapor pressure
+climate_vpd,Vapor pressure deficit
+climate_vs,Wind-speed at 10m
+elevation,Land elevation
+landcover_0,Water Bodies: at least 60% of area is covered by permanent water bodies.
+landcover_1,"Evergreen Needleleaf Vegetation: dominated by evergreen conifer trees and shrubs (>1m). Woody vegetation cover >10%.
+"
+landcover_2,Evergreen Broadleaf Vegetation: dominated by evergreen broadleaf and palmate trees and shrubs (>1m). Woody vegetation cover >10%.
+landcover_3,Deciduous Needleleaf Vegetation: dominated by deciduous needleleaf (larch) trees and shrubs (>1m). Woody vegetation cover >10%.
+landcover_4,Deciduous Broadleaf Vegetation: dominated by deciduous broadleaf trees and shrubs (>1m). Woody vegetation cover >10%.
+landcover_5,"Annual Broadleaf Vegetation: dominated by herbaceous annuals (<2m). At least 60% cultivated broadleaf crops.
+"
+landcover_6,Annual Grass Vegetation: dominated by herbaceous annuals (<2m) including cereal croplands.
+landcover_7,"Non-Vegetated Lands: at least 60% of area is non-vegetated barren (sand, rock, soil) or permanent snow/ice with less than 10% vegetation."
+landcover_8,"Urban and Built-up Lands: at least 30% impervious surface area including building materials, asphalt, and vehicles."
+population_density,The estimated number of persons per square kilometer.
+precipitation,Merged microwave/IR precipitation estimate
